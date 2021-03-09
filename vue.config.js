@@ -4,5 +4,6 @@ module.exports = {
   ],
   "devServer": {
     "proxy": process.env.API_URL,
+    "disableHostCheck": true
   }
 }
